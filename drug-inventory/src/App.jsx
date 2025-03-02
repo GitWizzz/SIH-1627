@@ -13,7 +13,6 @@ import DataAnalytics from './components/DataAnalytics';
 import Map from './components/Map';
 import Dashboard from './components/DashBoard';
 
-
 function Layout() {
   const location = useLocation();
   
@@ -24,7 +23,6 @@ function Layout() {
     <div>
       
            {!hideNavBarAndFooter1 && <NavBar />}
-      
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/login_page" element={<LoginPage />} />
@@ -35,8 +33,7 @@ function Layout() {
         <Route path="/data" element={<DataAnalytics />} />
         <Route path="/map" element={<Map/>} />
       </Routes>
-      
-      
+
       {!hideNavBarAndFooter && <Footer />}
 
       

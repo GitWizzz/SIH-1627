@@ -38,32 +38,32 @@ export default function HomePage() {
                     <div className="row">
                         <div className="col">
                             <a href="/dashboard" className="tp_widget" id="btn-cta-bb-book-appointment">
-                                <img src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/bookhelathcheck_icon.svg" alt="icon" />
+                                <i className="ri-git-repository-line"></i>
                                 <h5 className="effect">Inventory</h5>
                             </a>
                         </div>
                         <div className="col">
                             <a href="/medi" id="btn-cta-bb-buy-medicine" className="tp_widget">
-                                <img src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/consultonline_icon.svg" alt="icon" />
+                                <i className="ri-shopping-cart-2-line"></i>
                                 <h5 className="effect">Buy Medicine</h5>
                             </a>
                         </div>
                         <div className="col">
                             <a href="/" className="tp_widget " id="btn-cta-bb-book-prohealth">
-                                <img src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/bookhelathcheck_icon.svg" alt="icon" />
+                                <i className="ri-road-map-line"></i>
                                 <h5 className="effect">Track Shipments</h5>
                             </a>
                         </div>
 
                         <div className="col">
                             <a href="/data" id="btn-cta-bb-view-health-record" className="tp_widget">
-                                <img src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/finddoctor_icon.svg" alt="icon" />
+                                <i className="ri-pie-chart-2-line"></i>
                                 <h5 className="effect">Data & Analytics</h5>
                             </a>
                         </div>
                         <div className="col">
                             <a href="/" id="btn-cta-bb-consult-online" className="tp_widget">
-                                <img src="https://www.apollohospitals.com/wp-content/themes/apollohospitals/assets-v3/images/buymedicines_icon.svg" alt="icon" />
+                                <i className="ri-user-voice-line"></i>
                                 <h5 className="effect">Register Complaint</h5>
                             </a>
                         </div>
